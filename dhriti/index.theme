@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Dhriti
+Comment=A custom Gnome theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Dhriti
+MetacityTheme=Dhriti
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=close,minimize,maximize:menu
