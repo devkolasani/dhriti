@@ -14,7 +14,13 @@ Dhriti is a A custom GTK and GNOME shell theme, based on [Flat Remix](https://gi
        git clone https://github.com/devkolasani/dhriti
    ```
 
-2. Run the Install script in the repository.
+2. cd into the repository
+
+   ```bash
+       cd dhriti
+   ```
+
+3. Run the Install script in the repository.
 
    ```bash
        sh install.sh
