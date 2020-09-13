@@ -1,0 +1,14 @@
+[Unit]
+Description=Rclone Cloud Sync
+After=network.target
+
+[Service]
+User=vicky
+Group=vicky
+Type=simple
+Restart=on-failure
+WorkingDirectory=/home/vicky/Programs/scripts/cloudsync
+ExecStart=/home/vicky/Programs/scripts/cloudsync/cloudsync.sh
+
+[Install]
+WantedBy=multi-user.target

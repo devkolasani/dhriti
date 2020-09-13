@@ -1,0 +1,15 @@
+[Unit]
+Description=Rclone Cloud Mount
+After=network.target
+
+[Service]
+User=vicky
+Group=vicky
+Type=notify
+Restart=on-failure
+RestartSec="30s"
+WorkingDirectory=/home/vicky/Programs/scripts/cloudsync
+ExecStart=/home/vicky/Programs/scripts/cloudsync/mountdrives.sh
+
+[Install]
+WantedBy=multi-user.target
