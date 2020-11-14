@@ -2671,7 +2671,10 @@ StScrollBar StButton#hhandle:active {
 }
 
 #lockDialogGroup {
-  background-color: #41494c;
+  background-image: url("../wallpapers/lockwall.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #unlockDialogNotifications StButton#vhandle,

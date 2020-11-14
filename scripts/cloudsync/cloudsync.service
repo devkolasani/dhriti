@@ -7,8 +7,9 @@ User=vicky
 Group=vicky
 Type=simple
 Restart=on-failure
-WorkingDirectory=/home/vicky/Programs/scripts/cloudsync
-ExecStart=/home/vicky/Programs/scripts/cloudsync/cloudsync.sh
+RestartSec="30s"
+WorkingDirectory=/home/vicky/Documents/scripts/cloudsync
+ExecStart=/home/vicky/Documents/scripts/cloudsync/cloudsync.sh
 
 [Install]
 WantedBy=multi-user.target

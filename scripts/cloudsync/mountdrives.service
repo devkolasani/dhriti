@@ -5,11 +5,11 @@ After=network.target
 [Service]
 User=vicky
 Group=vicky
-Type=notify
+Type=forking
 Restart=on-failure
 RestartSec="30s"
-WorkingDirectory=/home/vicky/Programs/scripts/cloudsync
-ExecStart=/home/vicky/Programs/scripts/cloudsync/mountdrives.sh
+WorkingDirectory=/home/vicky/Documents/scripts/cloudsync
+ExecStart=/home/vicky/Documents/scripts/cloudsync/mountdrives.sh
 
 [Install]
 WantedBy=multi-user.target
