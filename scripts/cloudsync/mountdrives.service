@@ -7,7 +7,8 @@ User=vicky
 Group=vicky
 Type=forking
 Restart=on-failure
-RestartSec="30s"
+RestartSec=30
+TimeoutSec=90
 WorkingDirectory=/home/vicky/Documents/scripts/cloudsync
 ExecStart=/home/vicky/Documents/scripts/cloudsync/mountdrives.sh
 
