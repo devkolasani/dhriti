@@ -4,8 +4,6 @@
 
 Dhriti is a A custom GTK and GNOME shell theme, based on [Flat Remix](https://github.com/daniruiz/flat-remix) by daniruiz. It uses base adwaita icons by default.
 
-![Demo](./demo.png "Demo")
-
 ## Installation
 
 1. Clone or Download the repository.
@@ -28,4 +26,4 @@ Dhriti is a A custom GTK and GNOME shell theme, based on [Flat Remix](https://gi
 
 ## Usage
 
-Use the [Gnome tweak tool](https://wiki.gnome.org/Apps/GnomeTweakTool) to set shell and gtk themes to dhriti.
+Use the [Gnome Tweak Tool](https://wiki.gnome.org/Apps/GnomeTweakTool) to set shell and gtk themes to dhriti.
