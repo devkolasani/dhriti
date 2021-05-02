@@ -1695,7 +1695,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #overviewGroup {
-	background-image: url("../wallpapers/deskwall.jpg");
+	background-color: #272a34;
 	background-size: cover;
 }
 
