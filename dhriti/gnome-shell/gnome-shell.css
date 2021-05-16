@@ -2823,6 +2823,7 @@ StScrollBar StButton#hhandle:active {
 
 #lockDialogGroup {
 	background-color: #272a34;
+	
 }
 
 #unlockDialogNotifications StButton#vhandle,
@@ -3359,7 +3360,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Screen Shield */
 #lockDialogGroup {
-	background: url("assets/login-background");
+	background: url("../wallpapers/lockwall.png");
 	background-size: cover;
 }
 
